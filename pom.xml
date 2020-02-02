@@ -36,6 +36,7 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<h2o.version>3.28.0.2</h2o.version>
 	</properties>
 
 	<dependencies>
@@ -69,7 +70,12 @@
 		<dependency>
 			<groupId>ai.h2o</groupId>
 			<artifactId>h2o-genmodel</artifactId>
-			<version>3.28.0.2</version>
+			<version>${h2o.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>ai.h2o</groupId>
+			<artifactId>h2o-genmodel-ext-xgboost</artifactId>
+			<version>${h2o.version}</version>
 		</dependency>
 	</dependencies>
 
