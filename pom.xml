@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>org.codelibs.fione</groupId>
 	<artifactId>fione-serving</artifactId>
-	<version>0.1.1-SNAPSHOT</version>
+	<version>3.30.0.0-SNAPSHOT</version>
 	<name>fione-serving</name>
 	<description>Fione Serving Server</description>
 	<inceptionYear>2009</inceptionYear>
@@ -39,7 +39,7 @@
 		<sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</sonatypeOssDistMgmtSnapshotsUrl>
 		<arguments />
 		<java.version>11</java.version>
-		<h2o.version>3.28.0.3</h2o.version>
+		<h2o.version>3.30.0.2</h2o.version>
 	</properties>
 
 	<dependencies>
