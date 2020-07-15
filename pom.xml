@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>org.codelibs.fione</groupId>
 	<artifactId>fione-serving</artifactId>
-	<version>3.30.0.2</version>
+	<version>3.30.0.3-SNAPSHOT</version>
 	<name>fione-serving</name>
 	<description>Fione Serving Server</description>
 	<inceptionYear>2009</inceptionYear>
