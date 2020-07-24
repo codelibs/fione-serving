@@ -39,7 +39,7 @@
 		<sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</sonatypeOssDistMgmtSnapshotsUrl>
 		<arguments />
 		<java.version>11</java.version>
-		<h2o.version>3.30.0.6</h2o.version>
+		<h2o.version>3.30.0.7</h2o.version>
 	</properties>
 
 	<dependencies>
