@@ -56,9 +56,8 @@ public class MachineLearningService {
         final String modelPath = getModelPath();
         try {
             mojoModel = MojoModel.load(modelPath);
-            final EasyPredictModelWrapper.Config config =
-                    new EasyPredictModelWrapper.Config().setModel(mojoModel).setEnableLeafAssignment(enableLeafAssignement())
-                            .setEnableContributions(enableContributions());
+            final EasyPredictModelWrapper.Config config = new EasyPredictModelWrapper.Config().setModel(mojoModel)
+                    .setEnableLeafAssignment(enableLeafAssignement()).setEnableContributions(enableContributions());
             predictModel = new EasyPredictModelWrapper(config);
         } catch (final IOException e) {
             throw new ModelAccessException("Failed to initialize " + modelPath, e);

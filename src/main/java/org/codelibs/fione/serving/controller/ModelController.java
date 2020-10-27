@@ -59,9 +59,8 @@ public class ModelController {
         map.put("modelClassDistrib", mojoModel._modelClassDistrib);
         map.put("mojo_version", mojoModel._mojo_version);
         map.put("modelDescriptor", createModelDescriptor(mojoModel._modelDescriptor));
-        map.put("instance",
-                Arrays.stream(mojoModel._names).filter(s -> !s.equals(mojoModel._responseColumn))
-                        .collect(Collectors.toMap(s -> s, s -> "?")));
+        map.put("instance", Arrays.stream(mojoModel._names).filter(s -> !s.equals(mojoModel._responseColumn))
+                .collect(Collectors.toMap(s -> s, s -> "?")));
         return map;
     }
 
