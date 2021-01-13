@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>org.codelibs.fione</groupId>
 	<artifactId>fione-serving</artifactId>
-	<version>3.32.0.1</version>
+	<version>3.32.0.2-SNAPSHOT</version>
 	<name>fione-serving</name>
 	<description>Fione Serving Server</description>
 	<inceptionYear>2009</inceptionYear>
@@ -31,7 +31,7 @@
 		<connection>scm:git:git@github.com:codelibs/fione-serving.git</connection>
 		<developerConnection>scm:git:git@github.com:codelibs/fione-serving.git</developerConnection>
 		<url>https://github.com/codelibs/fione-serving</url>
-		<tag>fione-serving-3.32.0.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<properties>
