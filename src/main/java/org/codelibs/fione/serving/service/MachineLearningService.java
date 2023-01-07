@@ -1,5 +1,5 @@
 /*
- * Copyright 2012-2022 CodeLibs Project and the Others.
+ * Copyright 2012-2023 CodeLibs Project and the Others.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,8 +19,6 @@ import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import javax.annotation.PostConstruct;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.codelibs.fione.serving.FioneServingConstants;
@@ -39,6 +37,7 @@ import hex.genmodel.easy.prediction.AbstractPrediction;
 import hex.genmodel.easy.prediction.BinomialModelPrediction;
 import hex.genmodel.easy.prediction.MultinomialModelPrediction;
 import hex.genmodel.easy.prediction.RegressionModelPrediction;
+import jakarta.annotation.PostConstruct;
 
 @Service
 public class MachineLearningService {
