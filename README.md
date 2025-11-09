@@ -195,11 +195,3 @@ mvn test
 
 Licensed under the Apache License, Version 2.0. See the LICENSE file for details.
 
-## Project Information
-
-- **Version**: 3.40.0.0-SNAPSHOT
-- **Spring Boot**: 3.5.7
-- **H2O Version**: 3.40.0.4
-- **Organization**: [CodeLibs](https://www.codelibs.org/)
-- **Issues**: [GitHub Issues](https://github.com/codelibs/fione-serving/issues)
-
